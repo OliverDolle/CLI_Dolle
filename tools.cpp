@@ -10,11 +10,11 @@ void toolsMenu() {
     std::string magenta = "\033[35m";
     std::string reset = "\033[0m";
 
-    std::cout << red << "XXXXX" << reset << " " << green << " XXX " << reset << " " << blue << "X   " << reset << "  " << yellow << "X   " << reset << "  " << magenta << " XXXX" << reset << " " << std::endl;
-    std::cout << red << "  X  " << reset << " " << green << "X   X" << reset << " " << blue << "X   " << reset << "  " << yellow << "X   " << reset << "  " << magenta << "X" << reset << " " << std::endl;
-    std::cout << red << "  X  " << reset << " " << green << "X   X" << reset << " " << blue << "X   " << reset << "  " << yellow << "X   " << reset << "  " << magenta << " XXX " << reset << " " << std::endl;
-    std::cout << red << "  X  " << reset << " " << green << "X   X" << reset << " " << blue << "X   " << reset << "  " << yellow << "X   " << reset << "  " << magenta << "    X" << reset << " " << std::endl;
-    std::cout << red << "  X  " << reset << " " << green << " XXX " << reset << " " << blue << "XXXX" << reset << "  " << yellow << "XXXX" << reset << "  " << magenta << "XXXX " << reset << " " << std::endl;
+    std::cout << red << "XXXXX" << reset << " " << green << " XXX " << reset << " " << blue << " XXX " << reset << "  " << yellow << "X   " << reset << "  " << magenta << " XXXX" << reset << " " << std::endl;
+    std::cout << red << "  X  " << reset << " " << green << "X   X" << reset << " " << blue << "X   X" << reset << "  " << yellow << "X   " << reset << "  " << magenta << "X    " << reset << " " << std::endl;
+    std::cout << red << "  X  " << reset << " " << green << "X   X" << reset << " " << blue << "X   X" << reset << "  " << yellow << "X   " << reset << "  " << magenta << " XXX " << reset << " " << std::endl;
+    std::cout << red << "  X  " << reset << " " << green << "X   X" << reset << " " << blue << "X   X" << reset << "  " << yellow << "X   " << reset << "  " << magenta << "    X" << reset << " " << std::endl;
+    std::cout << red << "  X  " << reset << " " << green << " XXX " << reset << " " << blue << " XXX " << reset << "  " << yellow << "XXXX" << reset << "  " << magenta << "XXXX " << reset << " " << std::endl;
         std::cout << "Tools Menu:" << std::endl;
         std::cout << "1. Tool A" << std::endl;
         std::cout << "2. Tool B" << std::endl;
